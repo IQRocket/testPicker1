@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDB7AA81B6A287F00836A8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB7AA71B6A287F00836A8A /* main.m */; };
+		1EDB7AAB1B6A287F00836A8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB7AAA1B6A287F00836A8A /* AppDelegate.m */; };
+		1EDB7AAE1B6A287F00836A8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB7AAD1B6A287F00836A8A /* ViewController.m */; };
+		1EDB7AB11B6A287F00836A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB7AAF1B6A287F00836A8A /* Main.storyboard */; };
+		1EDB7AB31B6A287F00836A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB7AB21B6A287F00836A8A /* Assets.xcassets */; };
+		1EDB7AB61B6A287F00836A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB7AB41B6A287F00836A8A /* LaunchScreen.storyboard */; };
+		1EDB7ABB1B6A287F00836A8A /* TestPicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1EDB7ABA1B6A287F00836A8A /* TestPicker WatchKit App.app */; };
+		1EDB7AC11B6A287F00836A8A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB7ABF1B6A287F00836A8A /* Interface.storyboard */; };
+		1EDB7AC31B6A287F00836A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB7AC21B6A287F00836A8A /* Assets.xcassets */; };
+		1EDB7ACA1B6A287F00836A8A /* TestPicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1EDB7AC91B6A287F00836A8A /* TestPicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1EDB7AD21B6A287F00836A8A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB7AD11B6A287F00836A8A /* InterfaceController.m */; };
+		1EDB7AD51B6A287F00836A8A /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB7AD41B6A287F00836A8A /* ExtensionDelegate.m */; };
+		1EDB7AD81B6A287F00836A8A /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB7AD71B6A287F00836A8A /* NotificationController.m */; };
+		1EDB7ADA1B6A287F00836A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDB7AD91B6A287F00836A8A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EDB7ABC1B6A287F00836A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EDB7A9B1B6A287F00836A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EDB7AB91B6A287F00836A8A;
+			remoteInfo = "TestPicker WatchKit App";
+		};
+		1EDB7ACB1B6A287F00836A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EDB7A9B1B6A287F00836A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EDB7AC81B6A287F00836A8A;
+			remoteInfo = "TestPicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EDB7AE11B6A287F00836A8A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1EDB7ACA1B6A287F00836A8A /* TestPicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDB7AE51B6A287F00836A8A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1EDB7ABB1B6A287F00836A8A /* TestPicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EDB7AA31B6A287F00836A8A /* TestPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDB7AA71B6A287F00836A8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EDB7AA91B6A287F00836A8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EDB7AAA1B6A287F00836A8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EDB7AAC1B6A287F00836A8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EDB7AAD1B6A287F00836A8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EDB7AB01B6A287F00836A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EDB7AB21B6A287F00836A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EDB7AB51B6A287F00836A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EDB7AB71B6A287F00836A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDB7ABA1B6A287F00836A8A /* TestPicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestPicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDB7AC01B6A287F00836A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1EDB7AC21B6A287F00836A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EDB7AC41B6A287F00836A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDB7AC91B6A287F00836A8A /* TestPicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TestPicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDB7ACF1B6A287F00836A8A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1EDB7AD01B6A287F00836A8A /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		1EDB7AD11B6A287F00836A8A /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		1EDB7AD31B6A287F00836A8A /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		1EDB7AD41B6A287F00836A8A /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		1EDB7AD61B6A287F00836A8A /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		1EDB7AD71B6A287F00836A8A /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		1EDB7AD91B6A287F00836A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EDB7ADB1B6A287F00836A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EDB7AA01B6A287F00836A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDB7AC61B6A287F00836A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EDB7A9A1B6A287F00836A8A = {
+			isa = PBXGroup;
+			children = (
+				1EDB7AA51B6A287F00836A8A /* TestPicker */,
+				1EDB7ABE1B6A287F00836A8A /* TestPicker WatchKit App */,
+				1EDB7ACD1B6A287F00836A8A /* TestPicker WatchKit Extension */,
+				1EDB7AA41B6A287F00836A8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EDB7AA41B6A287F00836A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB7AA31B6A287F00836A8A /* TestPicker.app */,
+				1EDB7ABA1B6A287F00836A8A /* TestPicker WatchKit App.app */,
+				1EDB7AC91B6A287F00836A8A /* TestPicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EDB7AA51B6A287F00836A8A /* TestPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB7AA91B6A287F00836A8A /* AppDelegate.h */,
+				1EDB7AAA1B6A287F00836A8A /* AppDelegate.m */,
+				1EDB7AAC1B6A287F00836A8A /* ViewController.h */,
+				1EDB7AAD1B6A287F00836A8A /* ViewController.m */,
+				1EDB7AAF1B6A287F00836A8A /* Main.storyboard */,
+				1EDB7AB21B6A287F00836A8A /* Assets.xcassets */,
+				1EDB7AB41B6A287F00836A8A /* LaunchScreen.storyboard */,
+				1EDB7AB71B6A287F00836A8A /* Info.plist */,
+				1EDB7AA61B6A287F00836A8A /* Supporting Files */,
+			);
+			path = TestPicker;
+			sourceTree = "<group>";
+		};
+		1EDB7AA61B6A287F00836A8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB7AA71B6A287F00836A8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EDB7ABE1B6A287F00836A8A /* TestPicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB7ABF1B6A287F00836A8A /* Interface.storyboard */,
+				1EDB7AC21B6A287F00836A8A /* Assets.xcassets */,
+				1EDB7AC41B6A287F00836A8A /* Info.plist */,
+			);
+			path = "TestPicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		1EDB7ACD1B6A287F00836A8A /* TestPicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB7AD01B6A287F00836A8A /* InterfaceController.h */,
+				1EDB7AD11B6A287F00836A8A /* InterfaceController.m */,
+				1EDB7AD31B6A287F00836A8A /* ExtensionDelegate.h */,
+				1EDB7AD41B6A287F00836A8A /* ExtensionDelegate.m */,
+				1EDB7AD61B6A287F00836A8A /* NotificationController.h */,
+				1EDB7AD71B6A287F00836A8A /* NotificationController.m */,
+				1EDB7AD91B6A287F00836A8A /* Assets.xcassets */,
+				1EDB7ADB1B6A287F00836A8A /* Info.plist */,
+				1EDB7ACE1B6A287F00836A8A /* Supporting Files */,
+			);
+			path = "TestPicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1EDB7ACE1B6A287F00836A8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EDB7ACF1B6A287F00836A8A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EDB7AA21B6A287F00836A8A /* TestPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDB7AE61B6A287F00836A8A /* Build configuration list for PBXNativeTarget "TestPicker" */;
+			buildPhases = (
+				1EDB7A9F1B6A287F00836A8A /* Sources */,
+				1EDB7AA01B6A287F00836A8A /* Frameworks */,
+				1EDB7AA11B6A287F00836A8A /* Resources */,
+				1EDB7AE51B6A287F00836A8A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EDB7ABD1B6A287F00836A8A /* PBXTargetDependency */,
+			);
+			name = TestPicker;
+			productName = TestPicker;
+			productReference = 1EDB7AA31B6A287F00836A8A /* TestPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EDB7AB91B6A287F00836A8A /* TestPicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDB7AE21B6A287F00836A8A /* Build configuration list for PBXNativeTarget "TestPicker WatchKit App" */;
+			buildPhases = (
+				1EDB7AB81B6A287F00836A8A /* Resources */,
+				1EDB7AE11B6A287F00836A8A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EDB7ACC1B6A287F00836A8A /* PBXTargetDependency */,
+			);
+			name = "TestPicker WatchKit App";
+			productName = "TestPicker WatchKit App";
+			productReference = 1EDB7ABA1B6A287F00836A8A /* TestPicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1EDB7AC81B6A287F00836A8A /* TestPicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDB7ADE1B6A287F00836A8A /* Build configuration list for PBXNativeTarget "TestPicker WatchKit Extension" */;
+			buildPhases = (
+				1EDB7AC51B6A287F00836A8A /* Sources */,
+				1EDB7AC61B6A287F00836A8A /* Frameworks */,
+				1EDB7AC71B6A287F00836A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestPicker WatchKit Extension";
+			productName = "TestPicker WatchKit Extension";
+			productReference = 1EDB7AC91B6A287F00836A8A /* TestPicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EDB7A9B1B6A287F00836A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "洪锐堉";
+				TargetAttributes = {
+					1EDB7AA21B6A287F00836A8A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1EDB7AB91B6A287F00836A8A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1EDB7AC81B6A287F00836A8A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 1EDB7A9E1B6A287F00836A8A /* Build configuration list for PBXProject "TestPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EDB7A9A1B6A287F00836A8A;
+			productRefGroup = 1EDB7AA41B6A287F00836A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EDB7AA21B6A287F00836A8A /* TestPicker */,
+				1EDB7AB91B6A287F00836A8A /* TestPicker WatchKit App */,
+				1EDB7AC81B6A287F00836A8A /* TestPicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EDB7AA11B6A287F00836A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB7AB61B6A287F00836A8A /* LaunchScreen.storyboard in Resources */,
+				1EDB7AB31B6A287F00836A8A /* Assets.xcassets in Resources */,
+				1EDB7AB11B6A287F00836A8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDB7AB81B6A287F00836A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB7AC31B6A287F00836A8A /* Assets.xcassets in Resources */,
+				1EDB7AC11B6A287F00836A8A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDB7AC71B6A287F00836A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB7ADA1B6A287F00836A8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EDB7A9F1B6A287F00836A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB7AAE1B6A287F00836A8A /* ViewController.m in Sources */,
+				1EDB7AAB1B6A287F00836A8A /* AppDelegate.m in Sources */,
+				1EDB7AA81B6A287F00836A8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDB7AC51B6A287F00836A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB7AD51B6A287F00836A8A /* ExtensionDelegate.m in Sources */,
+				1EDB7AD21B6A287F00836A8A /* InterfaceController.m in Sources */,
+				1EDB7AD81B6A287F00836A8A /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EDB7ABD1B6A287F00836A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EDB7AB91B6A287F00836A8A /* TestPicker WatchKit App */;
+			targetProxy = 1EDB7ABC1B6A287F00836A8A /* PBXContainerItemProxy */;
+		};
+		1EDB7ACC1B6A287F00836A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EDB7AC81B6A287F00836A8A /* TestPicker WatchKit Extension */;
+			targetProxy = 1EDB7ACB1B6A287F00836A8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EDB7AAF1B6A287F00836A8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EDB7AB01B6A287F00836A8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EDB7AB41B6A287F00836A8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EDB7AB51B6A287F00836A8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1EDB7ABF1B6A287F00836A8A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EDB7AC01B6A287F00836A8A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EDB7ADC1B6A287F00836A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EDB7ADD1B6A287F00836A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EDB7ADF1B6A287F00836A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TestPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IQRocket3.TestPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1EDB7AE01B6A287F00836A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TestPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IQRocket3.TestPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1EDB7AE31B6A287F00836A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TestPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "TestPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IQRocket3.TestPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1EDB7AE41B6A287F00836A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TestPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "TestPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IQRocket3.TestPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1EDB7AE71B6A287F00836A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IQRocket3.TestPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EDB7AE81B6A287F00836A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IQRocket3.TestPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EDB7A9E1B6A287F00836A8A /* Build configuration list for PBXProject "TestPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDB7ADC1B6A287F00836A8A /* Debug */,
+				1EDB7ADD1B6A287F00836A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EDB7ADE1B6A287F00836A8A /* Build configuration list for PBXNativeTarget "TestPicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDB7ADF1B6A287F00836A8A /* Debug */,
+				1EDB7AE01B6A287F00836A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EDB7AE21B6A287F00836A8A /* Build configuration list for PBXNativeTarget "TestPicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDB7AE31B6A287F00836A8A /* Debug */,
+				1EDB7AE41B6A287F00836A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EDB7AE61B6A287F00836A8A /* Build configuration list for PBXNativeTarget "TestPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDB7AE71B6A287F00836A8A /* Debug */,
+				1EDB7AE81B6A287F00836A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EDB7A9B1B6A287F00836A8A /* Project object */;
+}
